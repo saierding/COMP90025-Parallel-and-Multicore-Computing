@@ -1,0 +1,242 @@
+第一课
+[]bigO proof
+[]parallel algorithm calculate the time complexity
+[]RAM and PRAM difference
+[]work and size definition
+[]brent principle
+[]Optimality
+[]Speedup
+[]maxmum to calculate the largest  speedup Gustafson’s Law/Amdahl’s Law
+[]Efficiency
+[]Feasibility
+[]nick's class
+[]wall clock time
+[]Parallel Add
+[]Parallel logical OR
+[]difference between CRCW and EREW
+[]finding the maximum of n2 unique numbers using n2 processors
+[]PRIORITY PRAM algorithm
+[]Simulating concurrent reading and writing（Replication algorithm）
+[]Simulating CR PRAMs on EREW PRAM（Broadcast）
+[]Simulating PRIORITY PRAM on COMMON PRAM(simulate it on an n2 processor COMMON PRAM)
+[]Simulating PRIORITY PRAM on EREW PRAM
+第二课
+[] Parallel architectures
+[] shared variables.
+[] Flynn’s classifications
+[] SIMD machine
+[] MIMD machine
+[] Schwartz’s parallel machine classes
+[] Shared versus distributed memory
+[] Uniformity of shared memory access
+[] UMA and cache issues
+[] NUMA
+[] Simultaneous memory access
+[] Addressing memory banks
+[] Coprocessors
+[] Implicit versus Explicit
+[] Threaded model for parallelism
+[] Process model for parallelism
+[] Hybrid model for parallelism
+[] SPMD and MPMD
+第三课
+[] OpenMP
+[] OpenMP Programming Model
+[]OpenMP Programming Model  restrictive
+[] Compiler Directives
+[] Run-time Library Routines
+[] OpenMP Run-time Library Routines
+[] code structure
+[] Environment variables
+[] OpenMP Directives
+[] SCHEDULE
+[] Dynamic vs Static
+[] ORDERED clause
+[] COLLAPSE clause
+[] Work-Sharing Constructs - SECTIONS Directive
+[] Work-Sharing Constructs - SINGLE Directive
+[] Synchronization and sharing variables
+[] Synchronization:critical
+[] Synchronization:barrier
+[] Synchronization:atomic
+[] Memory Consistency and flush
+[] Data environment: stack and heap
+[] Data environment:shared and private
+[] Data environment:Firstprivate Clause
+[] Data environment:Lastprivate Clause
+[] Data environment:reduction
+[] Dijkstra algorithm
+[] Some fine tuning
+第四课
+[] Communication
+[] message
+[] Time to send a message
+[] Total parallel run time
+[] Delay hiding
+[] Granularity
+[] Communication primitives
+[] blocking or non-blocking
+[]send() and recv()
+[] all Communication patterns
+第五课
+[]  Message Passing Model
+[] Parallel Paradigm
+[] Messages
+[] Communication modes
+[] What is MPI
+[] Initializing and exiting MPI
+[] Communicators
+[] Rank and Size
+[] Point-to-Point Communication
+[] Sending a message
+[] Receiving a message
+[] how a communication to succeed
+[] Collective Communications
+[] Barrier Synchronization
+[] Broadcast
+[] Scatter
+[] Gather
+[] Reduce
+[]mpi  Modes（MPI_send /MPI_Bsend/MPI_SSend and their message match）
+[] Uses of Communicator
+[] Multithreading( SINGLE / FUNNELED / SERIALIZED / MULTIPLE )
+[] Compile and run
+[] topologies( Cartesian topologies / Balanced Processor Distribution )
+[] Cartesian Mapping Functions
+[] Non-existent ranks
+[] Derived Types (other types to vector type)
+第六课
+[]Prefix problem
+[] Upper/Lower parallel prefix algorithm（proof）
+[] Odd/Even parallel prefix algorithm（proof）
+[] Optimal parallel prefix sum algorithm
+[] Ladner and Fischer’s parallel prefix algorithm
+[] Bounds on dyadic operations
+[] Pointer jumping
+[]  List Ranking
+[] Forest
+[] Prefix Sum
+第七课
+[] Compaction
+[] Unique Counts
+[] Distribution
+[] Sorting（ Mergesort / Quicksort ）
+[] Rank Sort
+[] Bitonic Mergesort
+[] Processor Optimal Parallel Merging
+第八课
+[] Geometric transformations of images
+[] Shifting
+[] Scaling
+[] Rotation
+[] Clipping
+[] Image smoothing
+[] Partitioning
+[] Mandelbrot Set
+[] Dynamic Load Balancing
+[] Monte Carlo Methods
+[] N-Body Problem
+[] Barnes-Hut Algorithm
+[] Orthogonal recursive bisection
+[] Jacobi iteration
+[] Laplace’s equation
+[] Gauss-Seidel relaxation
+[] Red-Black ordering
+[] Multi-grid technique
+[] Centralised Program Termination
+[] Decentralised Program Termination
+[] Acknowledgement Messages
+[] Ring Termination Algorithm
+[] Tree Termination Algorithm
+[] Fixed Energy Distribution Termination
+[] Navier-Stokes equation
+第九课
+[] Matrix multiplication
+[] Recursive subdivision
+[] Gaussian elimination
+第十课
+[] Vector Support
+[] SIMD on Intel Architecture
+[] Automatic Vectorization
+[] Masked instructions
+[] Vectorizing with Unit-Stride Memory Access
+[] Assumed Vector Dependence
+[] Resolving Assumed Dependency
+[] Limitations on Automatic Vectorization
+[] SIMD Loop Construct
+[] Data Alignment
+[] Padding Multi-Dimensional Containers for Alignment
+第十一课
+[] Intel MIC Architecture
+[] Intel MIC（phi）
+[] Models for Xeon Phi programming
+[] Coupling modes
+[] Native execution
+[] Matrix-Matrix Multiplication
+[] Explicit Offload
+第十二课
+[] GPU
+[] GPU components
+[] Execution hierarchy
+[] Memory hierarchy
+[] GPU vs CPU
+[] GPUs in parallel computing
+[] CUDA
+[] CUDA processing flow
+[] CUDA programming
+第十三课
+[] Parallel Reduction
+[] Global Synchronization
+[] Interleaved Addressing
+[] replace divergent branch
+[] Sequential Addressing
+[] First Add During Load
+[] Unrolling the Last Warp
+[] Completely Unrolled
+[] Multiple Adds / Thread
+[] Parallel Reduction Complexity
+第十四课
+[] Types of networks
+[] Multi-bus systems
+[] Bus characteristics
+[] Static networks
+[] Topological properties of static networks
+[] Cube Connected Cycles
+[] Data centre “fat tree”
+[] Switching networks
+[] crossbar
+[] Clos Network
+[] Multi-stage Clos Network
+[] Beneˇs Switching Network
+[] Omega Switching Network
+[] Baseline Switching Network
+[] Embedding mesh topologies in a hypercube
+[] Trivial embeddings
+[] Embeddings by omitting edges
+[] Gray code
+第十五课
+[]Systolic Algorithms
+[]Sorting on a systolic linear array
+[] Matrix-vector multiplication
+[] Matrix-matrix multiplication
+[] Cannon’s algorithm
+[] Odd-even Transposition Sort
+[] Shear sort
+第十六课
+[] Broadcasting in networks
+[] Mesh Broadcast
+[] Hypercube Numbering
+[] Hypercube Broadcast
+[] Optimal Hypercube Prefix Sum
+[] Hypercube bitonic mergesort
+[] Embeddings into the hypercube
+[] Gray codes
+[] Cross product of graphs
+[] Containment of Complete Binary Trees
+[] Alternative embedding of a tree
+[] General aspects of embeddings
+
+
+
+
+ 
